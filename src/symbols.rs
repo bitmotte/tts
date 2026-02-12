@@ -1,0 +1,45 @@
+pub enum Symbols {
+    Ah,
+    Ai,
+    Ash,
+    B,
+    D,
+    E,
+    Eng,
+    Epsilon,
+    Eth,
+    F,
+    G,
+    H,
+    Horseshoe,
+    I,
+    J,
+    K,
+    L,
+    M,
+    MidCentral,
+    N,
+    O,
+    Oi,
+    OpenO,
+    Ow,
+    P,
+    R,
+    S,
+    Sh,
+    SmallCapI,
+    T,
+    Theta,
+    U,
+    V,
+    VoicedAffricate,
+    VoicelessAffricate,
+    W,
+    Z,
+    Zh
+}
+
+fn symbol_to_name(symbol:Symbols) -> String {
+    
+    return "zh".to_string();
+}
